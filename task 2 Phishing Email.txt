@@ -1,0 +1,103 @@
+Step 1 :  Phishing Email of microsoft
+
+
+Subject: ⚠️ Action Required: Unusual Sign-in Activity Detected
+
+From: security-alert@m1crosoft-support.com
+
+To: harsh@gmail.com
+
+Dear User,
+
+We detected an unusual sign-in attempt to your Microsoft account from a suspicious location.
+
+📍 Location: Russia
+🕒 Time: Aug 6, 2025, 10:22 PM GMT
+
+If this was not you, please secure your account immediately by verifying your identity:
+
+🔐 Secure My Account
+
+If you do not take action within 48 hours, your account access will be restricted to protect your personal data.
+
+Thank you,
+Microsoft Account Team
+
+step 2 : Check the Sender’s Email Address
+
+security-alert@microsoft-support.com is right
+
+security-alert@m1crosoft-support.com is wrong
+
+step 3 :  Analyze Email Heade
+
+
+Return-Path: <security-alert@m1crosoft-support.com>
+Received: from smtp.fakeserver.ru (smtp.fakeserver.ru. [193.0.123.45])
+        by mx.google.com with ESMTPS id x15si1234567qkd.123.2025.08.06.22.24.02
+        for <you@example.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 06 Aug 2025 22:24:02 -0700 (PDT)
+Received-SPF: fail (google.com: domain of m1crosoft-support.com does not designate 193.0.123.45 as permitted sender) client-ip=193.0.123.45;
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@m1crosoft-support.com;
+       spf=fail (google.com: domain of m1crosoft-support.com does not designate 193.0.123.45 as permitted sender) smtp.mailfrom=security-alert@m1crosoft-support.com;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=m1crosoft-support.com
+Message-ID: <20250806-security-alert@m1crosoft-support.com>
+Date: Wed, 06 Aug 2025 22:22:00 +0000
+From: Microsoft Alert <security-alert@m1crosoft-support.com>
+To: you@example.com
+Subject: ⚠️ Action Required: Unusual Sign-in Activity Detected
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Outlook 16.0
+
+
+Step 4: Check Links and Attachments
+
+Attachment: Activity_Report.html 
+( .html file could contain fake login page )
+
+ Step 5: Look for Urgent or Threatening Language
+ 
+ Urgency:	“48 hours or account restricted”
+ 
+ 
+ Step 6: Mismatched URLs
+ 
+ rnicrosoft.com instead of microsoft.com
+ 
+  Step 7: Look for Spelling or Grammar Mistakes
+  
+  "If this was not you..."	❌ Grammar	Correct grammar is: "If this were not you..." 
+  
+  Spelling: No spelling mistakes found.
+  Grammar: One subtle grammar error ("was" vs. "were") that’s common in phishing emails.
+Style: Lacks the professional tone Microsoft typically uses; signature format is inconsistent.
+
+ Step 8: Write Your Analysis Summary (for Report)
+
+🚨 Phishing Email Analysis: Microsoft Account Alert
+
+Subject: ⚠️ Action Required: Unusual Sign-in Activity Detected
+Sender: security-alert@m1crosoft-support.com (Spoofed)
+Claimed Issue: Unusual sign-in detected from Russia
+
+Findings:
+
+    Sender Email Spoofed: Domain is fake (m1crosoft-support.com) using "1" instead of "i".
+
+    Header Anomalies: Based on the spoofed sender, the header likely fails SPF/DKIM checks.
+
+    Suspicious Link: Link text says “Secure My Account” but likely redirects to a phishing site.
+
+    Urgent Language: Threatens account lockout within 48 hours — triggers panic reaction.
+
+    Mismatched URL: Visible link is fake; real link redirects to phishing domain.
+
+    Grammar Issues: Uses “If this was” instead of “If this were”; signature unprofessional.
+
+
+ 
+
